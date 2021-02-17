@@ -4,6 +4,10 @@
 
 ```txt
 .
+├──APP_data
+│   ├──fake_deposite
+│   ├──final_data
+│   └──raw_data
 ├── all_data
 │   ├── erc_result
 │   └── pattern_result
@@ -27,3 +31,15 @@
 * `source_code`: source code of contracts.
 * `token_bytecode`: runtime bytecode of token contracts.
 * `unique_bytecode`: unique runtime bytecodes.
+* `fake_deposit_addr_list`：all addresses not unique
+* `fake_deposit_addr_opensource_list`：all open source addresses not unique
+* `fake_deposit_addr_opensource_unique`：all open source addresses unique
+* `fake_deposit_hash_list`：hash list of unique
+* `final_data`:the final statistical results of APP
+* `raw_data`:the hash of each transaction
+
+
+
+
+
+
