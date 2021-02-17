@@ -31,9 +31,9 @@
 * `source_code`: source code of contracts.
 * `token_bytecode`: runtime bytecode of token contracts.
 * `unique_bytecode`: unique runtime bytecodes.
-* `fake_deposit_addr_list`：all addresses not unique
-* `fake_deposit_addr_opensource_list`：all open source addresses not unique
-* `fake_deposit_addr_opensource_unique`：all open source addresses unique
+* `fake_deposit_addr_list`：all addresses that are not unique
+* `fake_deposit_addr_opensource_list`：all open source addresses that are not unique
+* `fake_deposit_addr_opensource_unique`：all open source addresses that are unique
 * `fake_deposit_hash_list`：hash list of unique
 * `final_data`:the final statistical results of APP
 * `raw_data`:the hash of each transaction
